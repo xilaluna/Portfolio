@@ -8,6 +8,11 @@
   font-family: BigshotOne;
 }
 
+@font-face {
+  src: url("../fonts/DiplomataSC-Regular.ttf");
+  font-family: DiplomataSC;
+}
+
 html,
 body {
   height: 100%;
@@ -36,7 +41,7 @@ hr.double {
 }
 
 h1 {
-  font-family: BigshotOne;
+  font-family: DiplomataSC;
 }
 
 p {
