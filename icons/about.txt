@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Diplomata SC
+- Font Author: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name "Diplomata"
+- Font Source: http://fonts.gstatic.com/s/diplomatasc/v11/buExpoi3ecvs3kidKgBJo2kf-P5Oaiw4cw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
