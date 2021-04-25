@@ -1,0 +1,41 @@
+@font-face {
+  src: url("../fonts/SpecialElite-Regular.ttf");
+  font-family: SpecialElite;
+}
+
+@font-face {
+  src: url("../fonts/IMFellGreatPrimer-Regular.ttf");
+  font-family: IMFellGreatPrimer-Italic;
+}
+
+@font-face {
+  src: url("../fonts/BigshotOne-Regular.ttf");
+  font-family: BigshotOne;
+}
+
+@font-face {
+  src: url("../fonts/DiplomataSC-Regular.ttf");
+  font-family: DiplomataSC;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h2,
+#quoteHeader {
+  font-family: IMFellGreatPrimer-Regular;
+}
+
+#bigHeading {
+  font-family: DiplomataSC;
+}
+
+p {
+  font-family: SpecialElite;
+}
+
+.background-noise {
+  background-image: url(../images/noisy.png);
+}
