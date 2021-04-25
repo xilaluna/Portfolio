@@ -18,6 +18,15 @@
   font-family: DiplomataSC;
 }
 
+body {
+  background-color: #e3e2d3;
+}
+
+.card {
+  background-color: #e3e2d3;
+  background-image: url(../images/noisy.png);
+}
+
 html,
 body {
   height: 100%;

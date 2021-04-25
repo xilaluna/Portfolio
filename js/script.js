@@ -8,3 +8,14 @@ $(function () {
     }
   )
 })
+
+$(function () {
+  $("#boringStocksImgCard").hover(
+    function () {
+      $("#boringStock").attr("src", "../images/boring-stocks-nofilter.png")
+    },
+    function () {
+      $("#boringStock").attr("src", "../images/boring-stocks-filter.png")
+    }
+  )
+})
