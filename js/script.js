@@ -9,13 +9,24 @@ $(function () {
   )
 })
 
-$(function () {
-  $("#boringStocksImgCard").hover(
-    function () {
-      $("#boringStock").attr("src", "../images/boring-stocks-nofilter.png")
-    },
-    function () {
-      $("#boringStock").attr("src", "../images/boring-stocks-filter.png")
-    }
-  )
-})
+// $(function () {
+//   $("#boringStocksImgCard").hover(
+//     function () {
+//       $("#boringStock").attr("src", "../images/project-images/")
+//     },
+//     function () {
+//       $("#boringStock").attr("src", "../images/boring-stocks-filter.png")
+//     }
+//   )
+// })
+
+// $(function () {
+//   $("#popcornImgCard").hover(
+//     function () {
+//       $("#boringStock").attr("src", "../images/project-images/popcorn/popcorn-emoji-color.png")
+//     },
+//     function () {
+//       $("#boringStock").attr("src", "../images/project-images/popcorn/popcorn-nocolor.png")
+//     }
+//   )
+// })

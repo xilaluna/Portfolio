@@ -82,15 +82,73 @@
         <div class="container-fluid border-bottom border-dark border-2 mb-2 py-4">
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 border-start border-end border-1 border-dark">
-              <div
-                id="boringStocksImgCard"
-                class="card border-start-0 border-end-0 border-dark rounded-0"
-              >
-                <img
-                  id="boringStock"
-                  src="/images/money-with-wings-color.png"
-                  class="card-img-top img-fluid mt-3 border border-dark border-2"
-                />
+              <div class="card border-start-0 border-end-0 border-dark rounded-0">
+                <div
+                  id="carouselBoringStocks"
+                  class="carousel slide card-img-top img-fluid mt-3 border border-dark border-2"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselBoringStocks"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselBoringStocks"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselBoringStocks"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" id="boringStocksImgCard">
+                      <img
+                        src="/images/project-images/boring-stocks/money-with-wings-edited.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/project-images/boring-stocks/boring-stocks-green.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/project-images/boring-stocks/boring-stocks-red.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselBoringStocks"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselBoringStocks"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
                 <div class="card-body">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laborum dolores,
@@ -102,10 +160,72 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 border-start border-end border-1 border-dark">
               <div class="card border-start-0 border-end-0 border-dark rounded-0">
-                <img
-                  src="/images/popcorn-emoji-color.png"
-                  class="card-img-top img-fluid mt-3 border border-dark border-2"
-                />
+                <div
+                  id="carouselPopcorn"
+                  class="carousel slide card-img-top img-fluid mt-3 border border-dark border-2"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPopcorn"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPopcorn"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPopcorn"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" id="popcornImgCard">
+                      <img
+                        src="/images/project-images/popcorn/popcorn-emoji-edited.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/project-images/popcorn/popcorn-home.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="/images/project-images/popcorn/popcorn-login.png"
+                        class="d-block w-100"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPopcorn"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPopcorn"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
                 <div class="card-body">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laborum dolores,
