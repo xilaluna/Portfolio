@@ -32,8 +32,7 @@ body {
   height: 100%;
 }
 
-h2,
-#quoteHeader {
+h2 {
   font-family: IMFellGreatPrimer-Regular;
 }
 
@@ -41,7 +40,8 @@ h2,
   font-family: DiplomataSC;
 }
 
-p {
+p,
+#quoteHeader {
   font-family: SpecialElite;
 }
 
