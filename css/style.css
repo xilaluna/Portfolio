@@ -9,8 +9,23 @@
 }
 
 @font-face {
+  src: url("../fonts/OPTITrimRoman.otf");
+  font-family: OPTITrimRoman;
+}
+
+@font-face {
+  src: url("../fonts/OPTIPowell-OldStyle.otf");
+  font-family: OPTIPowell-OldStyle;
+}
+
+@font-face {
   src: url("../fonts/BigshotOne-Regular.ttf");
   font-family: BigshotOne;
+}
+
+@font-face {
+  src: url("../fonts/THOrneShadedOpti.otf");
+  font-family: THOrneShadedOpti;
 }
 
 @font-face {
@@ -32,19 +47,29 @@ body {
   height: 100%;
 }
 
-h2 {
-  font-family: IMFellGreatPrimer-Regular;
+h2,
+#quoteHeader {
+  font-family: OPTITrimRoman;
+}
+
+#projectHeading {
+  font-family: THOrneShadedOpti;
 }
 
 #bigHeading {
   font-family: DiplomataSC;
 }
 
-p,
-#quoteHeader {
+p {
   font-family: SpecialElite;
 }
 
 .background-noise {
   background-image: url(../images/noisy.png);
+}
+
+#thisImage {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
 }
