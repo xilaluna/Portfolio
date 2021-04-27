@@ -47,6 +47,14 @@ body {
   height: 100%;
 }
 
+.svgLogo {
+  text-decoration: none;
+}
+
+.card-title {
+  font-family: OPTIPowell-OldStyle;
+}
+
 h2,
 #quoteHeader {
   font-family: OPTITrimRoman;
