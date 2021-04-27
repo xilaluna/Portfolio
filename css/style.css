@@ -81,3 +81,33 @@ p {
   width: 300px;
   height: 300px;
 }
+
+@media (min-width: 10px) {
+  .responsive-p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .responsive-p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-p {
+    font-size: 1rem;
+  }
+}
