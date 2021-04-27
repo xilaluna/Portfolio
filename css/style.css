@@ -87,6 +87,10 @@ p {
   height: 300px;
 }
 
+.tight-font {
+  text-align: justify;
+}
+
 @media (min-width: 10px) {
   .responsive-p {
     font-size: 0.7rem;
