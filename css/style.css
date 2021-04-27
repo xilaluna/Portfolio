@@ -14,6 +14,11 @@
 }
 
 @font-face {
+  src: url("../fonts/OPTITypoRoman.otf");
+  font-family: OPTITypoRoman;
+}
+
+@font-face {
   src: url("../fonts/OPTIPowell-OldStyle.otf");
   font-family: OPTIPowell-OldStyle;
 }
@@ -57,7 +62,7 @@ a {
 
 h2,
 #quoteHeader {
-  font-family: OPTITrimRoman;
+  font-family: OPTIPowell-OldStyle;
 }
 
 #projectHeading {
