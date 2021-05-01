@@ -124,8 +124,8 @@ p {
 /* borders */
 @media (min-width: 10px) {
   .no-border-top-bottom {
-    border-top: 1px solid black;
     border-bottom: none;
+    border-top: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -133,16 +133,16 @@ p {
   .no-border-min {
     border-top: none;
     border-bottom: none;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     border-radius: 0px;
   }
 }
 
 @media (min-width: 500px) {
   .no-border-top-bottom {
-    border-top: 1px solid black;
     border-bottom: none;
+    border-top: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -150,16 +150,16 @@ p {
   .no-border-min {
     border-top: none;
     border-bottom: none;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     border-radius: 0px;
   }
 }
 
 @media (min-width: 768px) {
   .no-border-top-bottom {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -167,7 +167,7 @@ p {
   .no-border-min {
     border-top: none;
     border-bottom: none;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     border-right: none;
     border-radius: 0px;
   }
@@ -175,8 +175,8 @@ p {
 
 @media (min-width: 992px) {
   .no-border-top-bottom {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -184,7 +184,7 @@ p {
   .no-border-min {
     border-top: none;
     border-bottom: none;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     border-right: none;
     border-radius: 0px;
   }
@@ -192,8 +192,8 @@ p {
 
 @media (min-width: 1200px) {
   .no-border-top-bottom {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -201,7 +201,7 @@ p {
   .no-border-min {
     border-top: none;
     border-bottom: none;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     border-right: none;
     border-radius: 0px;
   }
