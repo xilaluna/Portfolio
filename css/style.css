@@ -159,7 +159,7 @@ p {
 @media (min-width: 768px) {
   .no-border-top-bottom {
     border-top: 1px solid black;
-    border-bottom: none;
+    border-bottom: 1px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
@@ -176,7 +176,7 @@ p {
 @media (min-width: 992px) {
   .no-border-top-bottom {
     border-top: 1px solid black;
-    border-bottom: none;
+    border-bottom: 1px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
