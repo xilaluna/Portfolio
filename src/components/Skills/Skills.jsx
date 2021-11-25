@@ -1,7 +1,8 @@
 import React from "react"
+import Typography from "@mui/material/Typography"
 
 const Skills = () => {
-  return <div></div>
+  return <Typography></Typography>
 }
 
 export default Skills
