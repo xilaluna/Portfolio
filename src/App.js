@@ -10,7 +10,7 @@ const sectionStyles = {
   borderTop: `2px solid black`,
   borderBottom: `2px solid black`,
   my: [1, 1],
-  py: [5, 5],
+  py: [3, 3],
 }
 
 const App = () => {
