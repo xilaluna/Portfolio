@@ -1,5 +1,6 @@
 import React from "react"
 import Container from "@mui/material/Container"
+import Typography from "@mui/material/Typography"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Projects from "./components/Projects/Projects"
@@ -10,7 +11,7 @@ const sectionStyles = {
   borderTop: `2px solid black`,
   borderBottom: `2px solid black`,
   my: [1, 1],
-  py: [3, 3],
+  py: [2, 2],
 }
 
 const App = () => {
