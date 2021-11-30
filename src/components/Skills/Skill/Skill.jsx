@@ -10,7 +10,7 @@ const Skill = (props) => {
 
   const bars = skills.map((obj) => {
     const { skill, level } = obj
-    return <Bar name={skill} level={level} />
+    return <Bar key={skill} name={skill} level={level} />
   })
   return (
     <Grid item xs={12} sm={6} md={4}>

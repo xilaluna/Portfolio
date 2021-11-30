@@ -7,9 +7,15 @@ const techContainer = {
   justifyContent: "space-between",
 }
 
+const insertBetween = (symbol, array) => {
+  return array.flatMap((x) => [symbol, x]).slice(1)
+}
+
 const TechStack = (props) => {
-  const tech = props.techstack.map((techstack) => {
-    return <Typography>{techstack}</Typography>
+  const newArray = insertBetween("|", props.techstack)
+
+  const tech = newArray.map((newArray) => {
+    return <Typography>{newArray}</Typography>
   })
   return <Box sx={techContainer}>{tech}</Box>
 }
