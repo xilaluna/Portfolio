@@ -10,9 +10,9 @@ import TechStack from "./TechStack"
 const Project = (props) => {
   const { title, description, image, techstack } = props
   return (
-    <Card elevation={0} square sx={{ border: "1px solid black" }}>
+    <Card elevation={0} square sx={{ px: 2 }}>
       <CardMedia component="img" height="300" src={image} alt={title} />
-      <CardContent>
+      <CardContent sx={{ px: 0 }}>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
@@ -21,14 +21,12 @@ const Project = (props) => {
         </Typography>
       </CardContent>
 
-      <CardActions>
+      <CardActions sx={{ px: 0 }}>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
 
-      <CardContent>
-        <TechStack techstack={techstack} />
-      </CardContent>
+      <TechStack techstack={techstack} />
     </Card>
   )
 }

@@ -6,7 +6,7 @@ import Box from "@mui/material/Box"
 const Bar = (props) => {
   const { name, level } = props
   return (
-    <Box paddingX={2}>
+    <Box>
       <Typography>{name}</Typography>
       <Slider
         defaultValue={level}
