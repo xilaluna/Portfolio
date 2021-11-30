@@ -1,4 +1,3 @@
-import { red } from "@mui/material/colors"
 import { createTheme } from "@mui/material/styles"
 
 // A custom theme for this app
@@ -10,8 +9,24 @@ const theme = createTheme({
     secondary: {
       main: "#19857b",
     },
-    error: {
-      main: red.A400,
+    text: {
+      disabled: "#000000",
+    },
+    background: {
+      default: "#fffaf0",
+      paper: "#fffaf0",
+    },
+  },
+  typography: {
+    fontFamily: "Newsreader",
+    h1: {
+      fontFamily: "Diplomata",
+    },
+    body2: {
+      fontFamily: "Newsreader",
+    },
+    body1: {
+      fontFamily: "Newsreader",
     },
   },
 })

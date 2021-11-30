@@ -9,26 +9,37 @@ import Footer from "./components/Footer/Footer"
 
 const sectionStyles = {
   borderTop: `2px solid black`,
-  borderBottom: `2px solid black`,
   my: [1, 1],
   py: [2, 2],
+}
+
+const headingStyles = {
+  textAlign: "center",
+  paddingBottom: 1,
+  fontFamily: "Vast Shadow",
 }
 
 const App = () => {
   return (
     <Container maxWidth="lg">
       <Header />
-      <main>
+      <Container component="main" sx={{ borderBottom: "2px solid black" }} disableGutters>
         <Container sx={sectionStyles}>
           <Hero />
         </Container>
         <Container sx={sectionStyles}>
+          <Typography variant="h4" component="h4" sx={headingStyles} disableGutters>
+            ✵ PROJECTS ✵
+          </Typography>
           <Projects />
         </Container>
         <Container sx={sectionStyles}>
+          <Typography variant="h4" component="h4" sx={headingStyles} disableGutters>
+            ✵ SKILLS ✵
+          </Typography>
           <Skills />
         </Container>
-      </main>
+      </Container>
       <Footer />
     </Container>
   )
