@@ -9,18 +9,13 @@ import Button from "@mui/material/Button"
 import TechStack from "./TechStack"
 import mainImage from "../../../assets/images/boringstocks-main.png"
 
-const cardStyles = {
-  paddingRight: 2,
-  paddingBottom: 2,
-}
-
 const Project = (props) => {
   const { title, description, techstack, image } = props
   return (
-    <Grid item xs={12} md={6} sx={cardStyles}>
-      <Card elevation={0} square>
+    <Grid item xs={12} md={6}>
+      <Card elevation={0} square sx={{ border: "1px solid black" }}>
         <CardMedia component="img" height="300" image={mainImage} alt={title} />
-        <CardContent sx={{ px: [0, 0] }}>
+        <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {title}
           </Typography>
@@ -29,14 +24,14 @@ const Project = (props) => {
           </Typography>
         </CardContent>
 
-        <CardContent sx={{ px: [0, 0] }}>
-          <TechStack techstack={techstack} />
-        </CardContent>
-
-        <CardActions sx={{ px: [0, 0] }}>
+        <CardActions>
           <Button size="small">Share</Button>
           <Button size="small">Learn More</Button>
         </CardActions>
+
+        <CardContent>
+          <TechStack techstack={techstack} />
+        </CardContent>
       </Card>
     </Grid>
   )

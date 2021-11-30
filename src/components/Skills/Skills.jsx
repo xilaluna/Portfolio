@@ -1,11 +1,18 @@
 import React from "react"
-import Typography from "@mui/material/Typography"
+import Grid from "@mui/material/Grid"
+import data from "../../assets/data/skills-data.json"
+import Skill from "./Skill/Skill"
 
 const Skills = () => {
+  const skills = data.map((obj) => {
+    const { name, skills } = obj
+    return <Skill name={name} skills={skills} />
+  })
+
   return (
-    <Typography variant="h4" component="h4" sx={{ textAlign: "center" }}>
-      ✵ SKILLS ✵
-    </Typography>
+    <Grid container spacing={2}>
+      {skills}
+    </Grid>
   )
 }
 

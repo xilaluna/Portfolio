@@ -32,7 +32,9 @@ const Header = () => {
           <Typography variant="p">👨🏽‍💻 Status: Learning Blockchain</Typography>
         </Grid>
         <Grid item xs={12} md={6} sx={headingStyles}>
-          <Typography variant="h1">Xila Luna</Typography>
+          <Typography variant="h1" sx={{ fontSize: 50, textAlign: "center" }}>
+            XILA LUNA
+          </Typography>
         </Grid>
         <Grid item xs={12} md={3} sx={headingStyles}>
           <GitHubIcon sx={iconStyles} fontSize="large" />

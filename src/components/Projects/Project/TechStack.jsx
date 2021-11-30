@@ -4,7 +4,6 @@ import Box from "@mui/material/Box"
 
 const techContainer = {
   display: "flex",
-  alignItems: "center",
   justifyContent: "space-between",
 }
 
