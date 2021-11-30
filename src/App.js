@@ -23,23 +23,23 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <Header />
-      <Container component="main" sx={{ borderBottom: "2px solid black" }} disableGutters>
-        <Container sx={sectionStyles}>
+      <main>
+        <Container sx={sectionStyles} disableGutters>
           <Hero />
         </Container>
-        <Container sx={sectionStyles}>
-          <Typography variant="h4" component="h4" sx={headingStyles} disableGutters>
+        <Container sx={sectionStyles} disableGutters>
+          <Typography variant="h4" component="h4" sx={headingStyles}>
             ✵ PROJECTS ✵
           </Typography>
           <Projects />
         </Container>
-        <Container sx={sectionStyles}>
-          <Typography variant="h4" component="h4" sx={headingStyles} disableGutters>
+        <Container sx={[sectionStyles, { borderBottom: `2px solid black` }]} disableGutters>
+          <Typography variant="h4" component="h4" sx={headingStyles}>
             ✵ SKILLS ✵
           </Typography>
           <Skills />
         </Container>
-      </Container>
+      </main>
       <Footer />
     </Container>
   )
