@@ -4,16 +4,24 @@ import Grid from "@mui/material/Grid"
 import thumbBoringStocks from "../../assets/images/boringstocks-main.png"
 import thumPopcorn from "../../assets/images/popcorn-main.png"
 
-// const gridItemStyles = (theme) => ({
-//   [theme.breakpoints.up("md")]: {
-//     borderRight: "1px solid black",
-//   },
-// })
+const gridItemMdStyles = (theme) => ({
+  [theme.breakpoints.up("md")]: {
+    borderRight: "1px solid black",
+  },
+})
+
+const gridItemSmStyles = (theme) => ({
+  [theme.breakpoints.down("md")]: {
+    borderBottom: "1px solid black",
+    paddingBottom: 2,
+    marginBottom: 2,
+  },
+})
 
 const Projects = () => {
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12} md={6}>
+    <Grid container>
+      <Grid item xs={12} md={6} sx={{ ...gridItemMdStyles }}>
         <Project
           title={"BoringStocks"}
           description={
