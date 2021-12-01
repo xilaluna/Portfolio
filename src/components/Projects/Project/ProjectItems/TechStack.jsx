@@ -2,10 +2,10 @@ import React from "react"
 import Typography from "@mui/material/Typography"
 import Box from "@mui/material/Box"
 
-const techContainer = {
+const techContainer = (theme) => ({
   display: "flex",
   justifyContent: "space-between",
-}
+})
 
 const insertBetween = (symbol, array) => {
   return array.flatMap((x) => [symbol, x]).slice(1)
