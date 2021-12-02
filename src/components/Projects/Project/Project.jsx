@@ -35,12 +35,10 @@ const Project = (props) => {
         <Typography variant="h5" component="div">
           {title}
         </Typography>
-        <Typography sx={{ mb: 1 }} color="text.secondary">
+        <Typography sx={{ mb: 1 }} variant="body2" color="text.secondary">
           {subtitle}
         </Typography>
-        <Typography gutterBottom variant="body2">
-          {description}
-        </Typography>
+        <Typography gutterBottom>{description}</Typography>
       </CardContent>
 
       <CardActions sx={[buttonContainer, { p: 0 }]}>{linkIcons}</CardActions>
