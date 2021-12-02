@@ -15,7 +15,7 @@ const Project = (props) => {
   const { title, subtitle, description, image, links } = props
   const linkIcons = links.map((obj) => {
     const { name, link } = obj
-    return <Links name={name} link={link} />
+    return <Links key={link} name={name} link={link} />
   })
 
   return (

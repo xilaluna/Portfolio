@@ -46,10 +46,10 @@ const Projects = () => {
           image={thumbBoringStocks}
           links={[
             { name: "GitHub", link: "https://github.com/BoringStocks/BoringStocks" },
-            { name: "|", link: "none" },
+            { name: "|", link: "1" },
             { name: "Live", link: "https://boringstocks.live" },
 
-            { name: "|", link: "none" },
+            { name: "|", link: "2" },
 
             {
               name: "ProductHunt",
