@@ -5,7 +5,7 @@
 ## Download for a Template
 
 ```
-git pull https://github.com/xiluna/xiluna.github.io/edit/main/README.md
+git pull https://github.com/xiluna/Portfolio.git
 ```
 
 ## Visit My Portfolio
