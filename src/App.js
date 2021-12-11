@@ -16,7 +16,7 @@ const sectionStyles = {
 const headingStyles = {
   textAlign: "center",
   paddingBottom: 1,
-  fontFamily: "Vast Shadow",
+  fontWeight: "bold",
 }
 
 const App = () => {
