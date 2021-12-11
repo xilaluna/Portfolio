@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Languages",
+    "skills": [
+      { "skill": "Python", "level": 100 },
+      { "skill": "JavaScript", "level": 100 },
+      { "skill": "HTML & XML", "level": 100 },
+      { "skill": "CSS", "level": 85 },
+      { "skill": "Solidity", "level": 62 }
+    ]
+  },
+  {
+    "name": "Databases",
+    "skills": [
+      { "skill": "MongoDB", "level": 100 },
+      { "skill": "SQLite", "level": 84 },
+      { "skill": "MySQL", "level": 67 }
+    ]
+  },
+  {
+    "name": "Backend",
+    "skills": [
+      { "skill": "Node.js + Express.js", "level": 97 },
+      { "skill": "Flask", "level": 75 },
+      { "skill": "Django", "level": 54 }
+    ]
+  },
+  {
+    "name": "Frontend",
+    "skills": [
+      { "skill": "Handlebars", "level": 95 },
+      { "skill": "JQuery", "level": 86 },
+      { "skill": "React", "level": 80 },
+      { "skill": "Jinja2", "level": 80 }
+    ]
+  },
+  {
+    "name": "DevOps",
+    "skills": [
+      { "skill": "Git Version Control", "level": 100 },
+      { "skill": "Heroku", "level": 100 },
+      { "skill": "CapRover", "level": 83 },
+      { "skill": "Docker", "level": 78 }
+    ]
+  },
+  {
+    "name": "Testing",
+    "skills": [
+      { "skill": "Mocha & Chai", "level": 80 },
+      { "skill": "Unit / Integration (Overall Strategy)", "level": 67 },
+      { "skill": "OpSec Testing & Hardening", "level": 64 }
+    ]
+  }
+]
