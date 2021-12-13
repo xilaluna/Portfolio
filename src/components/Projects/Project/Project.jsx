@@ -6,11 +6,6 @@ import CardMedia from "@mui/material/CardMedia"
 import Links from "./Links"
 import CardActions from "@mui/material/CardActions"
 
-const buttonContainer = (theme) => ({
-  display: "flex",
-  justifyContent: "space-between",
-})
-
 const Project = (props) => {
   const { title, subtitle, description, image, links } = props
   const linkIcons = links.map((obj) => {
@@ -46,7 +41,7 @@ const Project = (props) => {
         <Typography gutterBottom>{description}</Typography>
       </CardContent>
 
-      <CardActions sx={[buttonContainer, { p: 0 }]}>{linkIcons}</CardActions>
+      <CardActions sx={{ p: 0 }}>{linkIcons}</CardActions>
     </Card>
   )
 }

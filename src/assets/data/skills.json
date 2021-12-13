@@ -20,17 +20,17 @@
   {
     "name": "Backend",
     "skills": [
-      { "skill": "Node.js + Express.js", "level": 97, "image": "nodejs.svg" },
-      { "skill": "Flask", "level": 75, "image": "flask.svg" },
+      { "skill": "Node.js", "level": 96, "image": "nodejs.svg" },
+      { "skill": "Flask", "level": 82, "image": "flask.svg" },
       { "skill": "Django", "level": 54, "image": "django.svg" }
     ]
   },
   {
     "name": "Frontend",
     "skills": [
-      { "skill": "Handlebars", "level": 95, "image": "handlebars.svg" },
-      { "skill": "JQuery", "level": 86, "image": "jquery.svg" },
-      { "skill": "React", "level": 80, "image": "react.svg" },
+      { "skill": "Handlebars", "level": 100, "image": "handlebars.svg" },
+      { "skill": "JQuery", "level": 90, "image": "jquery.svg" },
+      { "skill": "React", "level": 85, "image": "react.svg" },
       { "skill": "Jinja2", "level": 80, "image": "jinja.svg" }
     ]
   },

@@ -6,13 +6,11 @@
     "image": "boringstocks.png",
     "links": [
       { "name": "GitHub", "link": "https://github.com/BoringStocks/BoringStocks" },
-      { "name": "|", "link": "1" },
-      { "name": "Live", "link": "https://boringstocks.live" },
-      { "name": "|", "link": "2" },
       {
         "name": "ProductHunt",
         "link": "https://www.producthunt.com/posts/boringstocks?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-boringstocks"
-      }
+      },
+      { "name": "Website", "link": "https://boringstocks.live" }
     ]
   },
   {
@@ -27,13 +25,19 @@
     "subtitle": "Encode and decode images with python",
     "description": "This is a personal project of mine in which I created a python script to allow users to encode secret messages into their chosen image. In addition I also allow for the decoding of encoded images. I was able to do this by mainpulaing the least significant bit of the red channel for each pixel. ",
     "image": "pythonstego.png",
-    "links": [{ "name": "GitHub", "link": "https://github.com/xiluna/Python-Steganography" }]
+    "links": [
+      { "name": "GitHub", "link": "https://github.com/xiluna/Python-Steganography" },
+      { "name": "Docs", "link": "https://xiluna.github.io/Python-Steganography/" }
+    ]
   },
   {
     "title": "Breakout OOP",
-    "subtitle": "A version of Breakout that's based on the MDN 2d Breakout tutorial but restructured into OOP. ",
+    "subtitle": "A version of Breakout that's based on the MDN 2d tutorial, restructured into OOP. ",
     "description": "For this project I took the challenge of diving into object oriented programming(OOP) by coding a well known game “Breakout” into this newly learned programming paradigm. I used the MDN 2d Breakout tutorial as a base for restructuring. Additionally I added eslint and bundled the program with webpack.",
     "image": "breakout.png",
-    "links": [{ "name": "GitHub", "link": "https://github.com/xiluna/Breakout" }]
+    "links": [
+      { "name": "GitHub", "link": "https://github.com/xiluna/Breakout" },
+      { "name": "Docs", "link": "https://xiluna.github.io/Breakout/" }
+    ]
   }
 ]
