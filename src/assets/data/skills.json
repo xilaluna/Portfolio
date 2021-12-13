@@ -6,14 +6,14 @@
       { "skill": "JavaScript", "level": 100, "image": "javascript.svg" },
       { "skill": "HTML", "level": 100, "image": "html5.svg" },
       { "skill": "CSS", "level": 85, "image": "css3.svg" },
-      { "skill": "Solidity", "level": 62, "image": "solidity.png" }
+      { "skill": "Solidity", "level": 62, "image": "solidity.svg" }
     ]
   },
   {
     "name": "Databases",
     "skills": [
       { "skill": "MongoDB", "level": 100, "image": "mongodb.svg" },
-      { "skill": "SQLite", "level": 84, "image": "sqlite.png" },
+      { "skill": "SQLite", "level": 84, "image": "sqlite.svg" },
       { "skill": "MySQL", "level": 67, "image": "mysql.svg" }
     ]
   },
