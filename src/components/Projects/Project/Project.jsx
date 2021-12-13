@@ -31,7 +31,6 @@ const Project = (props) => {
     >
       <CardMedia
         component="img"
-        height="250px"
         sx={{ border: 2 }}
         src={require(`../../../assets/images/projects/${image}`).default}
         alt={title}
