@@ -9,7 +9,7 @@ const Bar = (props) => {
     <Box>
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <Typography sx={{ mt: 0.5, mr: 0.5 }}>{name}</Typography>
-        <img src={require(`../../../assets/images/icons/${image}`).default} alt="" height="30px" />
+        <img src={require(`../../../assets/images/icons/${image}`).default} alt="" height="35px" />
       </Box>
 
       <Slider
