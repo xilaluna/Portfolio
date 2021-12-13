@@ -2,53 +2,53 @@
   {
     "name": "Languages",
     "skills": [
-      { "skill": "Python", "level": 100 },
-      { "skill": "JavaScript", "level": 100 },
-      { "skill": "HTML & XML", "level": 100 },
-      { "skill": "CSS", "level": 85 },
-      { "skill": "Solidity", "level": 62 }
+      { "skill": "Python", "level": 100, "image": "python.svg" },
+      { "skill": "JavaScript", "level": 100, "image": "javascript.svg" },
+      { "skill": "HTML", "level": 100, "image": "html5.svg" },
+      { "skill": "CSS", "level": 85, "image": "css3.svg" },
+      { "skill": "Solidity", "level": 62, "image": "solidity.png" }
     ]
   },
   {
     "name": "Databases",
     "skills": [
-      { "skill": "MongoDB", "level": 100 },
-      { "skill": "SQLite", "level": 84 },
-      { "skill": "MySQL", "level": 67 }
+      { "skill": "MongoDB", "level": 100, "image": "mongodb.svg" },
+      { "skill": "SQLite", "level": 84, "image": "sqlite.png" },
+      { "skill": "MySQL", "level": 67, "image": "mysql.svg" }
     ]
   },
   {
     "name": "Backend",
     "skills": [
-      { "skill": "Node.js + Express.js", "level": 97 },
-      { "skill": "Flask", "level": 75 },
-      { "skill": "Django", "level": 54 }
+      { "skill": "Node.js + Express.js", "level": 97, "image": "nodejs.svg" },
+      { "skill": "Flask", "level": 75, "image": "flask.svg" },
+      { "skill": "Django", "level": 54, "image": "django.svg" }
     ]
   },
   {
     "name": "Frontend",
     "skills": [
-      { "skill": "Handlebars", "level": 95 },
-      { "skill": "JQuery", "level": 86 },
-      { "skill": "React", "level": 80 },
-      { "skill": "Jinja2", "level": 80 }
+      { "skill": "Handlebars", "level": 95, "image": "handlebars.svg" },
+      { "skill": "JQuery", "level": 86, "image": "jquery.svg" },
+      { "skill": "React", "level": 80, "image": "react.svg" },
+      { "skill": "Jinja2", "level": 80, "image": "jinja.svg" }
     ]
   },
   {
     "name": "DevOps",
     "skills": [
-      { "skill": "Git Version Control", "level": 100 },
-      { "skill": "Heroku", "level": 100 },
-      { "skill": "CapRover", "level": 83 },
-      { "skill": "Docker", "level": 78 }
+      { "skill": "Git Version Control", "level": 100, "image": "git.svg" },
+      { "skill": "Heroku", "level": 100, "image": "heroku.svg" },
+      { "skill": "Docker", "level": 85, "image": "docker.svg" },
+      { "skill": "DigitalOcean", "level": 78, "image": "digitalocean.svg" }
     ]
   },
   {
     "name": "Testing",
     "skills": [
-      { "skill": "Mocha & Chai", "level": 80 },
-      { "skill": "Unit / Integration (Overall Strategy)", "level": 67 },
-      { "skill": "OpSec Testing & Hardening", "level": 64 }
+      { "skill": "Mocha & Chai", "level": 80, "image": "mocha.svg" },
+      { "skill": "Unit / Integration (Overall Strategy)", "level": 67, "image": "unittest.svg" },
+      { "skill": "OpSec Testing & Hardening", "level": 64, "image": "opsec.svg" }
     ]
   }
 ]

@@ -8,8 +8,8 @@ const Skill = (props) => {
   const { name, skills } = props
 
   const bars = skills.map((obj) => {
-    const { skill, level } = obj
-    return <Bar key={skill} name={skill} level={level} />
+    const { skill, level, image } = obj
+    return <Bar key={skill} name={skill} level={level} image={image} />
   })
   return (
     <Card elevation={0} square sx={{ px: 2 }}>

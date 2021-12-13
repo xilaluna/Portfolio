@@ -29,7 +29,13 @@ const Project = (props) => {
         px: 2,
       }}
     >
-      <CardMedia component="img" height="250px" sx={{ border: 2 }} src={image} alt={title} />
+      <CardMedia
+        component="img"
+        height="250px"
+        sx={{ border: 2 }}
+        src={require(`../../../assets/images/projects/${image}`).default}
+        alt={title}
+      />
 
       <CardContent sx={{ px: 0, flexGrow: 1 }}>
         <Typography variant="h5" component="div">
