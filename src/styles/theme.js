@@ -13,8 +13,8 @@ const theme = createTheme({
       disabled: "#000000",
     },
     background: {
-      default: "#fffaf0",
-      paper: "#fffaf0",
+      default: "#eeee",
+      paper: "#ffff",
     },
   },
   typography: {

@@ -4,7 +4,7 @@ import App from "./App"
 
 import CssBaseline from "@mui/material/CssBaseline"
 import { ThemeProvider } from "@mui/material/styles"
-import theme from "./theme/theme"
+import theme from "./styles/theme"
 
 ReactDOM.render(
   <React.StrictMode>
