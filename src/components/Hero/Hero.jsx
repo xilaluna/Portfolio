@@ -39,24 +39,17 @@ const statementStyles = (theme) => ({
   },
 })
 
-const pictureItem = (theme) => ({
-  [theme.breakpoints.down("md")]: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-})
-
 const itemStyles = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
   px: 2,
 }
 
 const Hero = () => {
   return (
     <Grid container>
-      <Grid item xs={12} sm={12} md={4} sx={[itemStyles, pictureItem]}>
+      <Grid item xs={12} sm={12} md={4} sx={itemStyles}>
         <Paper sx={pictureStyles} />
       </Grid>
       <Grid item xs={12} sm={12} md={8} sx={itemStyles}>
