@@ -16,6 +16,7 @@ const headingStyles = {
 const leftPosition = (theme) => ({
   [theme.breakpoints.up("md")]: {
     justifyContent: "flex-start",
+    paddingLeft: 2,
   },
   [theme.breakpoints.down("md")]: {
     justifyContent: "center",
@@ -32,6 +33,7 @@ const rightPosition = (theme) => ({
 })
 
 const iconStyles = {
+  fontSize: 32,
   color: "text.primary",
   m: 0.5,
 }
@@ -61,22 +63,22 @@ const Header = () => {
     >
       <Grid container>
         <Grid item xs={12} md={3} sx={[headingStyles, leftPosition]}>
-          <Typography variant="p">{status.status}</Typography>
+          <Typography>{status.status}</Typography>
         </Grid>
         <Grid item xs={12} md={6} sx={[headingStyles, { justifyContent: "center" }]}>
-          <Typography variant="h1" sx={{ fontSize: 50, textAlign: "center" }}>
+          <Typography variant="h1" sx={{ fontSize: 46, textAlign: "center" }}>
             XILA LUNA
           </Typography>
         </Grid>
         <Grid item xs={12} md={3} sx={[headingStyles, rightPosition]}>
           <IconButton href="https://github.com/xiluna">
-            <GitHubIcon sx={iconStyles} fontSize="large" />
+            <GitHubIcon sx={iconStyles} />
           </IconButton>
           <IconButton href="https://www.linkedin.com/in/xilaluna/">
-            <LinkedInIcon sx={iconStyles} fontSize="large" />
+            <LinkedInIcon sx={iconStyles} />
           </IconButton>
           <IconButton href="https://xilaluna.medium.com/">
-            <ArticleIcon sx={iconStyles} fontSize="large" />
+            <ArticleIcon sx={iconStyles} />
           </IconButton>
         </Grid>
       </Grid>
