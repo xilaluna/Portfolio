@@ -10,8 +10,8 @@ const pictureStyles = (theme) => ({
     height: 300,
   },
   [theme.breakpoints.up("sm")]: {
-    width: 515,
-    height: 515,
+    width: 480,
+    height: 480,
   },
   [theme.breakpoints.up("md")]: {
     width: 300,
@@ -31,11 +31,16 @@ const pictureStyles = (theme) => ({
 
 const statementStyles = (theme) => ({
   [theme.breakpoints.up("xs")]: {
-    fontSize: 20,
+    fontSize: 22,
+    pt: 2,
   },
 
   [theme.breakpoints.up("sm")]: {
+    fontSize: 30,
+  },
+  [theme.breakpoints.up("md")]: {
     fontSize: 35,
+    pt: 0,
   },
 })
 

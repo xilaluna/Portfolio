@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import Typography from "@mui/material/Typography"
-import Container from "@mui/material/Container"
 import Grid from "@mui/material/Grid"
 import GitHubIcon from "@mui/icons-material/GitHub"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
@@ -11,29 +10,25 @@ import data from "../../assets/data/status.json"
 const headingStyles = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
 }
 
 const leftPosition = (theme) => ({
   [theme.breakpoints.up("md")]: {
-    justifyContent: "flex-start",
-    paddingLeft: 2,
-  },
-  [theme.breakpoints.down("md")]: {
-    justifyContent: "center",
+    flexDirection: "column",
   },
 })
 
-const rightPosition = (theme) => ({
-  [theme.breakpoints.up("md")]: {
-    justifyContent: "flex-end",
-  },
-  [theme.breakpoints.down("md")]: {
-    justifyContent: "center",
+const headingName = (theme) => ({
+  fontSize: 45,
+  textAlign: "center",
+  [theme.breakpoints.down("sm")]: {
+    paddingTop: 1,
   },
 })
 
 const iconStyles = {
-  fontSize: 32,
+  fontSize: 35,
   color: "text.primary",
   m: 0.5,
 }
@@ -52,37 +47,34 @@ const Header = () => {
   }, [index])
 
   return (
-    <Container
-      component="header"
-      disableGutters
-      sx={{
-        borderBottom: (theme) => `5px solid black`,
-        mb: 1,
-        py: [1, 1],
-      }}
+    <Grid
+      container
+      direction="row"
+      justifyContent="center"
+      alignItems="center"
+      sx={{ borderBottom: (theme) => `5px solid black`, mb: 1, py: 2 }}
     >
-      <Grid container>
-        <Grid item xs={12} md={3} sx={[headingStyles, leftPosition]}>
-          <Typography>{status.status}</Typography>
-        </Grid>
-        <Grid item xs={12} md={6} sx={[headingStyles, { justifyContent: "center" }]}>
-          <Typography variant="h1" sx={{ fontSize: 46, textAlign: "center" }}>
-            XILA LUNA
-          </Typography>
-        </Grid>
-        <Grid item xs={12} md={3} sx={[headingStyles, rightPosition]}>
-          <IconButton href="https://github.com/xiluna">
-            <GitHubIcon sx={iconStyles} />
-          </IconButton>
-          <IconButton href="https://www.linkedin.com/in/xilaluna/">
-            <LinkedInIcon sx={iconStyles} />
-          </IconButton>
-          <IconButton href="https://xilaluna.medium.com/">
-            <ArticleIcon sx={iconStyles} />
-          </IconButton>
-        </Grid>
+      <Grid item xs={12} md={3} sx={[headingStyles, leftPosition]}>
+        <Typography>{status.status}</Typography>
+        <Typography sx={{ px: 0.5 }}>{status.message}</Typography>
       </Grid>
-    </Container>
+      <Grid item xs={12} md={6} sx={[headingStyles]}>
+        <Typography variant="h1" sx={headingName}>
+          XILA LUNA
+        </Typography>
+      </Grid>
+      <Grid item xs={12} md={3} sx={[headingStyles]}>
+        <IconButton href="https://github.com/xiluna">
+          <GitHubIcon sx={iconStyles} />
+        </IconButton>
+        <IconButton href="https://www.linkedin.com/in/xilaluna/">
+          <LinkedInIcon sx={iconStyles} />
+        </IconButton>
+        <IconButton href="https://xilaluna.medium.com/">
+          <ArticleIcon sx={iconStyles} />
+        </IconButton>
+      </Grid>
+    </Grid>
   )
 }
 
