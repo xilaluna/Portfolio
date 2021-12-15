@@ -35,29 +35,31 @@ const statementStyles = (theme) => ({
   },
 
   [theme.breakpoints.up("sm")]: {
-    fontSize: 30,
+    fontSize: 35,
   },
 })
 
+const pictureItem = (theme) => ({
+  [theme.breakpoints.down("md")]: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+})
+
+const itemStyles = {
+  display: "flex",
+  alignItems: "center",
+  px: 2,
+}
+
 const Hero = () => {
   return (
-    <Grid container spacing={3}>
-      <Grid
-        item
-        xs={12}
-        sm={12}
-        md={4}
-        sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
-      >
+    <Grid container>
+      <Grid item xs={12} sm={12} md={4} sx={[itemStyles, pictureItem]}>
         <Paper sx={pictureStyles} />
       </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={12}
-        md={8}
-        sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
-      >
+      <Grid item xs={12} sm={12} md={8} sx={itemStyles}>
         <Typography variant="p" component="p" sx={statementStyles}>
           Xila Luna is a creative full-stack engineer who is willing and able to find solutions when
           there are none.
