@@ -5,13 +5,13 @@ import data from "../../assets/data/projects.json"
 
 const mediumItemStyles = (theme) => ({
   [theme.breakpoints.up("md")]: {
-    borderRight: "1px solid black",
+    borderRight: "2px solid black",
   },
 })
 
 const smallItemStyles = (theme) => ({
   [theme.breakpoints.down("md")]: {
-    borderBottom: "1px solid black",
+    borderBottom: "2px solid black",
     marginBottom: 2,
     paddingBottom: 2,
   },
@@ -19,7 +19,7 @@ const smallItemStyles = (theme) => ({
 
 const borderBottomMediumStyles = (theme) => ({
   [theme.breakpoints.up("md")]: {
-    borderBottom: "1px solid black",
+    borderBottom: "2px solid black",
     paddingBottom: 1,
   },
 })

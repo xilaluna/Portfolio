@@ -5,31 +5,31 @@ import data from "../../assets/data/skills.json"
 
 const mediumBorderRightStyles = (theme) => ({
   [theme.breakpoints.up("md")]: {
-    borderRight: "1px solid black",
+    borderRight: "2px solid black",
   },
 })
 
 const mediumBorderBottomStyles = (theme) => ({
   [theme.breakpoints.up("md")]: {
-    borderBottom: "1px solid black",
+    borderBottom: "2px solid black",
   },
 })
 
 const smallRightBottomStyles = (theme) => ({
   [theme.breakpoints.only("sm")]: {
-    borderRight: "1px solid black",
+    borderRight: "2px solid black",
   },
 })
 
 const smallBorderBottomStyles = (theme) => ({
   [theme.breakpoints.only("sm")]: {
-    borderBottom: "1px solid black",
+    borderBottom: "2px solid black",
   },
 })
 
 const extraSmallItemStyles = (theme) => ({
   [theme.breakpoints.down("sm")]: {
-    borderBottom: "1px solid black",
+    borderBottom: "2px solid black",
   },
 })
 
