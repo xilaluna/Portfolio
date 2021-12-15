@@ -19,7 +19,7 @@ const Footer = () => {
       sx={{
         borderTop: (theme) => `5px solid black`,
         mt: 1,
-        py: [5, 5],
+        py: [4, 4],
       }}
     >
       <Copyright />
