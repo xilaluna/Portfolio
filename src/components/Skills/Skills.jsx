@@ -84,7 +84,11 @@ const Skills = () => {
         xs={12}
         sm={6}
         md={4}
-        sx={[mediumBorderRightStyles, smallBorderBottomStyles, extraSmallItemStyles]}
+        sx={[
+          mediumBorderRightStyles,
+          smallBorderBottomStyles,
+          extraSmallItemStyles,
+        ]}
       >
         <Skill name={data[3].name} skills={data[3].skills} />
       </Grid>
@@ -93,7 +97,11 @@ const Skills = () => {
         xs={12}
         sm={6}
         md={4}
-        sx={[mediumBorderRightStyles, smallRightBottomStyles, extraSmallItemStyles]}
+        sx={[
+          mediumBorderRightStyles,
+          smallRightBottomStyles,
+          extraSmallItemStyles,
+        ]}
       >
         <Skill name={data[4].name} skills={data[4].skills} />
       </Grid>
