@@ -17,7 +17,7 @@ const sectionStyles = {
 
 const headingStyles = {
   textAlign: "center",
-  paddingBottom: 1,
+  paddingBottom: 2,
   fontWeight: "bold",
 }
 
@@ -32,7 +32,7 @@ const App = () => {
           </Container>
           <Container sx={sectionStyles} disableGutters>
             <Typography variant="h4" component="h4" sx={headingStyles}>
-              ✵ About ✵
+              ✵ ABOUT ✵
             </Typography>
             <About />
           </Container>
