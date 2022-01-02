@@ -35,7 +35,10 @@ const App = () => {
             </Typography>
             <Projects />
           </Container>
-          <Container sx={[sectionStyles, { borderBottom: `2px solid black` }]} disableGutters>
+          <Container
+            sx={[sectionStyles, { borderBottom: `2px solid black` }]}
+            disableGutters
+          >
             <Typography variant="h4" component="h4" sx={headingStyles}>
               ✵ SKILLS ✵
             </Typography>
