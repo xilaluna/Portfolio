@@ -4,6 +4,7 @@ import Container from "@mui/material/Container"
 import Typography from "@mui/material/Typography"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
+import About from "./components/About/About"
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills"
 import Footer from "./components/Footer/Footer"
@@ -28,6 +29,12 @@ const App = () => {
         <main>
           <Container sx={sectionStyles} disableGutters>
             <Hero />
+          </Container>
+          <Container sx={sectionStyles} disableGutters>
+            <Typography variant="h4" component="h4" sx={headingStyles}>
+              ✵ About ✵
+            </Typography>
+            <About />
           </Container>
           <Container sx={sectionStyles} disableGutters>
             <Typography variant="h4" component="h4" sx={headingStyles}>
