@@ -38,7 +38,10 @@ const Header = () => {
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
-    const timerId = setInterval(() => setIndex((i) => (i + 1) % data.length), 5000)
+    const timerId = setInterval(
+      () => setIndex((i) => (i + 1) % data.length),
+      5000
+    )
     return () => clearInterval(timerId)
   }, [])
 
