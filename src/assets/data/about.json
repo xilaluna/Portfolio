@@ -3,14 +3,18 @@
     "name": "Education",
     "list": [
       {
-        "name": "Make School",
+        "name": "Dominican University",
+        "location": "San Rafael, CA",
         "description": "B.S. Applied Computer Science",
-        "date": "2020 - 2022"
+        "date": "2020 - 2022",
+        "image": "dominican.jpg"
       },
       {
         "name": "Berkeley High School",
+        "location": "Berkeley, CA",
         "description": "High School Diploma · Robotics Club",
-        "date": "2016 - 2020"
+        "date": "2016 - 2020",
+        "image": "berkeley.png"
       }
     ]
   },
@@ -23,13 +27,17 @@
     "list": [
       {
         "name": "Google CSSI",
-        "description": "Participant",
-        "date": "Jul 2020 - Aug 2020"
+        "location": "San Francisco",
+        "description": "CS Summer Institute · Participant",
+        "date": "Jul 2020 - Aug 2020",
+        "image": "google.png"
       },
       {
         "name": "Code Nation Student",
-        "description": "Pandora Apprenticeship",
-        "date": "2018 - 2020"
+        "location": "San Francisco | Oakland, CA",
+        "description": "Pandora Apprenticeship · Participant",
+        "date": "2018 - 2020",
+        "image": "codenation.png"
       }
     ]
   }
