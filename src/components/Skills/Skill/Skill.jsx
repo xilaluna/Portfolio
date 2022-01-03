@@ -14,12 +14,7 @@ const Skill = (props) => {
   return (
     <Card elevation={0} square sx={{ px: 2 }}>
       <CardContent sx={{ px: 0, py: 0 }}>
-        <Typography
-          gutterBottom
-          variant="h5"
-          component="div"
-          sx={{ textAlign: "center" }}
-        >
+        <Typography gutterBottom variant="h5" sx={{ textAlign: "center" }}>
           {name}
         </Typography>
         {bars}

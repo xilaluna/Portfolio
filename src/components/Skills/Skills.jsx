@@ -2,6 +2,9 @@ import React from "react"
 import Grid from "@mui/material/Grid"
 import Skill from "./Skill/Skill"
 import data from "../../assets/data/skills.json"
+import SectionHeader from "../SectionHeader/SectionHeader"
+import Box from "@mui/material/Box"
+import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn"
 
 const mediumBorderRightStyles = (theme) => ({
   [theme.breakpoints.up("md")]: {
@@ -35,80 +38,85 @@ const extraSmallItemStyles = (theme) => ({
 
 const Skills = () => {
   return (
-    <Grid container>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={[
-          mediumBorderRightStyles,
-          mediumBorderBottomStyles,
-          smallRightBottomStyles,
-          smallBorderBottomStyles,
-          extraSmallItemStyles,
-        ]}
-      >
-        <Skill name={data[0].name} skills={data[0].skills} />
+    <React.Fragment>
+      <Box sx={{ paddingLeft: 2 }}>
+        <SectionHeader name={"Skills"} titleIcon={<AssignmentTurnedInIcon />} />
+      </Box>
+      <Grid container>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={4}
+          sx={[
+            mediumBorderRightStyles,
+            mediumBorderBottomStyles,
+            smallRightBottomStyles,
+            smallBorderBottomStyles,
+            extraSmallItemStyles,
+          ]}
+        >
+          <Skill name={data[0].name} skills={data[0].skills} />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={4}
+          sx={[
+            mediumBorderRightStyles,
+            mediumBorderBottomStyles,
+            smallBorderBottomStyles,
+            extraSmallItemStyles,
+          ]}
+        >
+          <Skill name={data[1].name} skills={data[1].skills} />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={4}
+          sx={[
+            mediumBorderBottomStyles,
+            smallBorderBottomStyles,
+            smallRightBottomStyles,
+            extraSmallItemStyles,
+          ]}
+        >
+          <Skill name={data[2].name} skills={data[2].skills} />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={4}
+          sx={[
+            mediumBorderRightStyles,
+            smallBorderBottomStyles,
+            extraSmallItemStyles,
+          ]}
+        >
+          <Skill name={data[3].name} skills={data[3].skills} />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={4}
+          sx={[
+            mediumBorderRightStyles,
+            smallRightBottomStyles,
+            extraSmallItemStyles,
+          ]}
+        >
+          <Skill name={data[4].name} skills={data[4].skills} />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <Skill name={data[5].name} skills={data[5].skills} />
+        </Grid>
       </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={[
-          mediumBorderRightStyles,
-          mediumBorderBottomStyles,
-          smallBorderBottomStyles,
-          extraSmallItemStyles,
-        ]}
-      >
-        <Skill name={data[1].name} skills={data[1].skills} />
-      </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={[
-          mediumBorderBottomStyles,
-          smallBorderBottomStyles,
-          smallRightBottomStyles,
-          extraSmallItemStyles,
-        ]}
-      >
-        <Skill name={data[2].name} skills={data[2].skills} />
-      </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={[
-          mediumBorderRightStyles,
-          smallBorderBottomStyles,
-          extraSmallItemStyles,
-        ]}
-      >
-        <Skill name={data[3].name} skills={data[3].skills} />
-      </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={[
-          mediumBorderRightStyles,
-          smallRightBottomStyles,
-          extraSmallItemStyles,
-        ]}
-      >
-        <Skill name={data[4].name} skills={data[4].skills} />
-      </Grid>
-      <Grid item xs={12} sm={6} md={4}>
-        <Skill name={data[5].name} skills={data[5].skills} />
-      </Grid>
-    </Grid>
+    </React.Fragment>
   )
 }
 

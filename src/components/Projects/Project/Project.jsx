@@ -32,9 +32,7 @@ const Project = (props) => {
       />
 
       <CardContent sx={{ px: 0, flexGrow: 1 }}>
-        <Typography variant="h5" component="div">
-          {title}
-        </Typography>
+        <Typography variant="h5">{title}</Typography>
         <Typography sx={{ mb: 1 }} variant="body2" color="text.secondary">
           {subtitle}
         </Typography>

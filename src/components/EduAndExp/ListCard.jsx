@@ -5,22 +5,21 @@ import Typography from "@mui/material/Typography"
 import List from "@mui/material/List"
 import ListItem from "@mui/material/ListItem"
 import Box from "@mui/material/Box"
-
-const titleFont = (theme) => ({
-  textAlign: "center",
-  [theme.breakpoints.down("md")]: {
-    paddingTop: 2,
-  },
-})
+import SectionHeader from "../SectionHeader/SectionHeader"
 
 const ListCard = (props) => {
-  const { name, list } = props
+  const { name, list, titleIcon } = props
 
   const listItems = list.map((obj) => {
     const { name, location, description, date, image } = obj
     return (
       <ListItem
-        sx={{ justifyContent: "flex-start", alignItems: "flex-start", px: 0 }}
+        sx={{
+          justifyContent: "flex-start",
+          alignItems: "flex-start",
+          paddingTop: 0,
+          pl: 3,
+        }}
       >
         <img
           src={require(`../../assets/images/aboutIcons/${image}`).default}
@@ -52,9 +51,7 @@ const ListCard = (props) => {
   return (
     <Card elevation={0} square sx={{ px: 2 }}>
       <CardContent sx={{ px: 0, py: 0 }}>
-        <Typography gutterBottom variant="h5" component="div" sx={titleFont}>
-          {name}
-        </Typography>
+        <SectionHeader name={name} titleIcon={titleIcon} />
         <List sx={{ py: 0 }}>{listItems}</List>
       </CardContent>
     </Card>
