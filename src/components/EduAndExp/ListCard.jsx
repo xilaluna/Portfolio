@@ -17,7 +17,8 @@ const ListCard = (props) => {
         sx={{
           justifyContent: "flex-start",
           alignItems: "flex-start",
-          paddingTop: 0,
+          pt: 0,
+          pb: 3,
           pl: 3,
         }}
       >
