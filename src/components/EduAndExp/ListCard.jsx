@@ -14,6 +14,7 @@ const ListCard = (props) => {
     const { name, location, description, date, image } = obj
     return (
       <ListItem
+        key={`${name}-${date}`}
         sx={{
           justifyContent: "flex-start",
           alignItems: "flex-start",
@@ -51,7 +52,7 @@ const ListCard = (props) => {
   })
   return (
     <Card elevation={0} square sx={{ px: 2 }}>
-      <CardContent sx={{ px: 0, py: 0 }}>
+      <CardContent sx={{ px: 0, pt: 0 }}>
         <SectionHeader name={name} titleIcon={titleIcon} />
         <List sx={{ py: 0 }}>{listItems}</List>
       </CardContent>
